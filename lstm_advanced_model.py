@@ -26,8 +26,8 @@ print("=" * 60)
 print("SECTION 2: LOADING DATA")
 print("=" * 60)
 
-train = pd.read_csv("C:/Users/zacky/Desktop/machine learning/archive/final train test data/sarcasm_train.csv")
-test  = pd.read_csv("C:/Users/zacky/Desktop/machine learning/archive/final train test data/sarcasm_test.csv")
+train = pd.read_csv("sarcasm_train.csv")
+test  = pd.read_csv("sarcasm_test.csv")
 
 print("Train size:", len(train))
 print("Test size:", len(test))
